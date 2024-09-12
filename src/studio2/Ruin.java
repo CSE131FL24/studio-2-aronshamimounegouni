@@ -41,12 +41,12 @@ for (int i = 1; i <= totalSimulations; i++) {
 	
 	if (startAmount == 0 )
 	{
-	System.out.println("Simulation " + (i) + ": " + numberOfDays + "LOSE");
+	System.out.println("Simulation " + (i) + ": " + numberOfDays + " LOSE");
 		
 	}
-	if (startAmount == winLimit)
+	else if (startAmount == winLimit)
 	{
-		System.out.println("Simulation " + (i) + ": " + numberOfDays + "WIN");
+		System.out.println("Simulation " + (i) + ": " + numberOfDays + " WIN");
 	}
 	
 }
